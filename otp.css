@@ -1,0 +1,55 @@
+body{
+  background: url(3_20240302_170955_0002.png) no-repeat fixed center/cover;
+  
+}
+/*login form*/
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 460px;
+    width: 330px;
+    margin: auto;
+    margin-top: 95px;
+    
+    
+}
+.form h1{
+  color: silver;
+  font-size: 14px;
+  font-weight: bold;
+  
+   
+}
+.form p {
+   font-size: 12px;
+   text-align: center;
+   color: silver;
+}
+
+/*Boxes*/
+ .box{
+    padding: 10px;
+    margin: 8px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 3px -3px -3px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+#submit{
+     padding: 10px 20px;
+     margin-top: 60px;
+     width: 66%;
+     background-color: darkred;
+     border: none;
+     outline: none;
+     border-radius: 8px;
+     font-size: 15px;
+     color: white;
+     font-weight: bold;
+     
+}
